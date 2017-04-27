@@ -22,7 +22,7 @@ a:hover{text-decoration:underline;}
 .menu ul li a{border-right:1px solid #525252; float: left; margin:0; padding: 5px 10px; color:#fff
 ; font-family: 'Rancho', cursive; font-size:12px; text-decoration:none;}
 .menu ul li a:hover{text-decoration:underline;}
-.menu ul li a.active{text-decoration:underline;}
+.menu ul li a:active{text-decoration:underline;}
 /*¨menu2*/
 .text_bg{ background-color: #666; margin:0; padding:0;border-top: 1px solid #141414}
 .text_bg_resize{ width:960px; margin:0 auto; padding:0;}
@@ -33,7 +33,7 @@ menu{padding: 85px 0 0 0; margin:0;width:600px;float:right;}
 .menu2 ul li a{border-right:1px solid  #CCC; float: left; margin:0; padding: 5px 5px 5px 2px; color:#fff
 ; font: normal 11px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration:none;}
 .menu2 ul li a:hover{text-decoration:underline;}
-.menu2 ul li a.active{text-decoration:underline;}
+.menu2 ul li a:active{text-decoration:underline;}
 /*banner*/
 .main_banner{margin 0 auto; padding: 0; border-top: inset #666666;}
 .block_banner{margin:0;padding 0;background-color:#333;}
@@ -44,6 +44,7 @@ menu{padding: 85px 0 0 0; margin:0;width:600px;float:right;}
 .FBG_resize{ width: 960px; margin:0 auto; padding: 20px 0; }
 .FBG_resize p{font:normal 11px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #dfdfdf; margin:0; line-height: 1.8em; padding:5px; text-align:justify;}
 .FBG_resize a{ color:#fff; font: normal 11px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; margin-left:60px;}
+.FBG_resize a:hover{text-decoration:underline;}
 .FBG_resize h2{ font: normal 14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#f4f3f3; margin:0; padding: 5px; text-transform:uppercase;}
 .FBG_resize img{ float:left; margin:10px 5px; padding:0;}
 .blog {width:310px; float:left; margin:0; padding:10px 5px; background-color:#454545;}
@@ -56,6 +57,7 @@ menu{padding: 85px 0 0 0; margin:0;width:600px;float:right;}
 .body h3 span{font:normal 14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666; }
 .body img{ float:left; margin: 10px 5 px; padding:0;}
 .body p{font:normal 12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666; margin:0; line-height: 1.8em; padding:0; text-align:justify;}
+.body a:hover{text-decoration:underline;}
 .body a{text-decoration:none; color:#0097e7; line-height:1.8em; font: normal 12px Arial, Helvetica,  sans-serif;}
 .left {width:310px; background-color: #fff; float:left; border: solid 1px #ececec; padding: 5px 1px; margin: 5px 2px;}
 .port {width:958px; background-color: #fff; float:left; border: solid 1px #ececec; padding: 0; ; margin: 10px 0 20px 0;}
@@ -103,6 +105,16 @@ menu{padding: 85px 0 0 0; margin:0;width:600px;float:right;}
  
 }
 
+#contactform input[type=submit]:hover
+{
+ 
+ background: rgba(0,0,0,0);
+ color: black;
+ box-shadow: inset 0 0 0 3px #7c7d7e;
+
+ 
+}
+
 #contactform input[type=reset]
 {
  margin:10px 5px 5px 20px; 
@@ -113,6 +125,16 @@ menu{padding: 85px 0 0 0; margin:0;width:600px;float:right;}
  background-color: #999;
  font: 1.2em  'Rancho' ;
  color: black;
+ 
+}
+
+#contactform input[type=reset]:hover
+{
+ 
+ background: rgba(0,0,0,0);
+ color: black;
+ box-shadow: inset 0 0 0 3px #7c7d7e;
+
  
 }
 
