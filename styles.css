@@ -72,7 +72,7 @@ a {text-decoration:none;}
 .body{max-width:960px; margin:0 auto; }
 .body h2{font: normal 18px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333; margin:0; padding: 10px 10px;}
 .body h2 span{font:normal 11px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666;}
-.body h3{font: normal 25px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: black; margin:0 0 15px 0;  padding:15px 5px; border-bottom:1px solid #d7d7d7;}
+.body h3{font: normal 25px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: black;     border-bottom:1px solid #d7d7d7;}
 .body h3 span{font:normal 14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666; }
 .body img{ margin: 0; padding:0; max-width: 100%  }
 .body p{font:normal 12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666; margin:0; line-height: 1.8em; padding:0; text-align:justify;}
@@ -81,10 +81,10 @@ a {text-decoration:none;}
 .body a{text-decoration:none; color:#0097e7; line-height:1.8em; font: normal 12px Arial, Helvetica,  sans-serif; text-align: right;}
 .left {width:32.5%; background-color: #fff; display: inline-block; border: solid 1px #ececec; }
 
-.port {width:100%;max-width:958px; background-color: #fff;  border: solid 1px #ececec; padding: 0; ; margin: 10px 0 20px 0;}
+.port {width:100%;max-width:958px; background-color: #fff;  border: solid 1px #ececec; padding: 0; ; margin: 10px 0 10px 0;}
 .port ul li{font:normal 12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#666; margin:0; padding:0;}
-.port p{padding: 5px 5px; text-align:justify;box-sizing: border-box;}
-.port img { float: left; padding:0; margin:0; max-width: 100%;}
+.port p{padding: 5px 5px;box-sizing: border-box;}
+.port img { float: left; padding:10px 5px; margin:0; max-width: 100%; }
 .port h2{font: normal 18px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333; margin:0; padding:5px 5px;}
 
 
@@ -228,7 +228,7 @@ a {text-decoration:none;}
   {
     text-align: justify;
     display: block;
-    padding: 5px;
+    padding: 5px 15px;
     color: #fff;
     text-decoration: none;
     font-size: 25px;
@@ -243,6 +243,10 @@ a {text-decoration:none;}
     float: right;
   }
 
+  .body h3
+  {
+    margin:0;  padding:5px 5px;
+  }  
   .blog 
   {
   	display: none;
@@ -273,6 +277,13 @@ a {text-decoration:none;}
   .port img 
   {
     display: none;
+  }
+
+  .port ul li
+  {
+    text-align: justify;
+    padding:1px 10px;
+    box-sizing: border-box;
   }
 
 
