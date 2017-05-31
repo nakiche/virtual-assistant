@@ -18,20 +18,21 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $bool = mail($to,$subject,$message,$headers);
 
-if($bool){
+if($bool)
+{
     echo 
 	'<script languaje="javascript">alert("Mensaje enviado, estaremos atendiendo su solicitud a la brevedad posible");
 	location.href = "contactar.html"
 	</script>';	
 		
-}else{
+}
+else
+{
     echo 
 	'<script languaje="javascript">alert("Mensaje no ha sido enviado");
 	location.href = "contactar.html"
 	</script>';
 	
 }
-
-
 
 ?>
